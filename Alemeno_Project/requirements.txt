@@ -1,6 +1,6 @@
 PyPDF2
 torch
 transformers
-faiss
+faiss-cpu
 streamlit
 numpy
