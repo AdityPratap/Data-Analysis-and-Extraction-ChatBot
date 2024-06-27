@@ -1,4 +1,3 @@
-os
 PyPDF2
 torch
 transformers
