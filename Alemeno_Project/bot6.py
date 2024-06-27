@@ -41,7 +41,7 @@ def store_embeddings(embeddings):
 def streamlit_interface():
     st.title("PDF Comparison and Analysis")
 
-    pdf_directory = st.text_input("Enter the PDF directory path", "/Alemeno_Project/")
+    pdf_directory = st.text_input("Enter the PDF directory path", "/Chatbot/Alemeno_Project/")
     if not os.path.exists(pdf_directory):
         st.error("The provided directory does not exist.")
         return
